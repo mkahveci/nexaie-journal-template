@@ -1,0 +1,93 @@
+\documentclass[review
+%,preprint
+]{nexaie} % Options: [onecolumn, review, preprint]
+
+% Fix for the \Bbbk conflict before anything else loads
+\let\Bbbk\relax 
+
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+% =========================
+% ARTICLE METADATA
+% =========================
+% ==============================================================================
+% ARTICLE TYPE (Standard categories from ACS / JCE)
+% Copy and paste the exact UPPER CASE string below:
+% RESEARCH ARTICLE, REVIEW ARTICLE, COMMUNICATION, COMMENTARY, 
+% TECHNOLOGY REPORT, CHEMICAL EDUCATION RESEARCH, LABORATORY EXPERIMENT
+% ==============================================================================
+\articleType{RESEARCH ARTICLE}
+
+% Ensure these commands match the expected input of nexaie.cls
+\titleNexAIE{Leveraging AI-Native Pipelines for Rapid Scholarly Dissemination}
+
+% If the error persists, try wrapping names in extra braces if the class uses a parser
+\volume{1}
+\issue{1}
+\pagerange{1--15}
+\doi{10.5281/zenodo.1943xxxx}
+\issn{XXXX-XXXX (pending)}
+\affiliationNexAIE{Kahveci Nexus, Chicago, IL, USA}
+
+\received{April 1, 2026}
+\accepted{April 15, 2026}
+\published{April 23, 2026}
+
+\aiProtocol{PEDAL-bq/v1}{kahveci2026-bq}
+\aiModel{Gemini 3.1 Pro}
+
+% =========================
+% AUTHOR METADATA (authblk style)
+% =========================
+\author[1]{Murat Kahveci \orcid{0000-0001-5155-7755}\thanks{Corresponding author: editor@kahveci.pw}}
+\author[2]{Jane Doe \orcid{0000-0000-0000-0000}}
+\author[3]{John Smith}
+
+\affil[1]{Kahveci Nexus, Chicago, IL, USA}
+\affil[2]{Department of AI in Education, University of Excellence, London, UK}
+\affil[3]{Department of AI in Education, University of Chicago, Chicago, USA}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This document serves as the official author template for NExAIE. It now supports multiple authors and institutions, following the standards of high-impact journals.
+\end{abstract}
+
+\graphicalAbstract{media/logo.pdf}
+
+\keywords{AI publishing, education, open access, multi-author template}
+
+\input{sections/introduction}
+\input{sections/methods}
+\input{sections/results}
+\input{sections/accessibility}
+\input{sections/conclusion}
+
+% =========================
+% DECLARATIONS & STATEMENTS
+% =========================
+\section*{Declarations}
+
+\subsection*{Funding}
+This work was supported by the Nexus AI Research Grant [Grant No. 2026-001].
+
+\subsection*{Author Contributions}
+MK: Conceptualization, Methodology, Writing - Original Draft. JD: Software, Data Curation. JS: Supervision, Funding Acquisition. All authors have read and agreed to the published version of the manuscript.
+
+\subsection*{Data Availability Statement}
+The datasets generated and/or analyzed during the current study are available in the NExAIE repository at [link].
+
+\subsection*{Conflicts of Interest}
+The authors declare no conflict of interest.
+
+\begin{appendices}
+\section{Supplementary Data}
+Additional datasets and detailed derivation of the equations can be found in this section.
+\end{appendices}
+
+\printbibliography
+
+\end{document}

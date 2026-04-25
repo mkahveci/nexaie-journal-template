@@ -1,0 +1,29 @@
+% accessibility.tex
+\section{Accessibility (WCAG 2.1)}
+To ensure that NExAIE articles are accessible to all readers, including those using screen readers, we require all authors to follow these WCAG 2.1 standards.
+
+\subsection{Implementing Accessible Figures}
+Use the \texttt{\textbackslash nexaieFigure} command provided by the class. This command wraps the image in an accessibility layer (ActualText metadata).
+
+\nexaieFigure{ht}{media/logo.pdf}{The official NExAIE logo demonstrating the accessible figure command.}{A circular gold and white logo featuring a large stylized H and a small red Greek letter Psi.}
+
+\subsection{Accessible Tables}
+Screen readers navigate tables linearly. To maintain accessibility:
+\begin{itemize}
+    \item \textbf{Avoid Merged Cells}: Avoid using \texttt{multirow} or \texttt{multicolumn} unless absolutely necessary.
+    \item \textbf{Row Headers}: Ensure the first column clearly labels the data that follows in the row.
+\end{itemize}
+
+\subsection{Color and Contrast}
+When creating figures:
+\begin{itemize}
+    \item \textbf{Non-Color Cues}: Do not use color as the only way to convey meaning. Use patterns, dashed lines, or different marker shapes in plots.
+    \item \textbf{Contrast}: Ensure a contrast ratio of at least 4.5:1 for text against its background.
+\end{itemize}
+
+\subsection{Descriptive Hyperlinks}
+Hyperlink text should be descriptive of the destination. 
+\begin{itemize}
+    \item \textbf{Poor}: Click \href{https://kahveci.pw/pedal}{here} to see the archive.
+    \item \textbf{Good}: For further details, see the \href{https://kahveci.pw/pedal}{PEDAL Archive}.
+\end{itemize}
