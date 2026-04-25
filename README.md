@@ -10,8 +10,9 @@ Official LaTeX template for the **Nexus AI & Education (NExAIE)** journal. This 
 *   **Biber/BibLaTeX**: Modern citation management using APA 7th Edition.
 
 ## 📥 Getting Started
-1.  **Overleaf (Recommended)**: [Link to Overleaf Template]
-2.  **Local Use**:
+1.  **Journal Homepage**: [nexaie.kahveci.pw](https://nexaie.kahveci.pw/index.php/nexaie)
+2.  **Overleaf (Recommended)**: [Link to Overleaf Template]
+3.  **Local Use**:
     *   Clone this repository.
     *   Ensure you have a modern LaTeX distribution (TeX Live 2024+).
     *   Compile using `pdflatex` -> `biber` -> `pdflatex`.

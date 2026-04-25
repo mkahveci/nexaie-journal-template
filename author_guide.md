@@ -1,6 +1,9 @@
 # NExAIE Author Guide & Technical Writing Specifications
 
-Welcome to the **Nexus AI & Education (NExAIE)** author guide. As an AI-native journal, we prioritize technical precision, accessibility, and transparency. These specifications ensure that your research is disseminated with the highest scholarly quality.
+Welcome to the **Nexus AI & Education (NExAIE)** author guide. As an AI-native journal, we prioritize technical precision, accessibility, and transparency. 
+
+**Official Journal Link**: [nexaie.kahveci.pw](https://nexaie.kahveci.pw/index.php/nexaie)
+
 
 ---
 
