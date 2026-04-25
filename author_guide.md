@@ -36,7 +36,7 @@ We strongly encourage submissions via our **Official Overleaf Template**.
 
 ## 3. AI Disclosure & Transparency (The PEDAL Protocol)
 NExAIE requires full disclosure of AI involvement in the research or writing process.
-*   **AI Protocol Citation**: Authors must cite the specific AI Review or Prompt Protocol used, ideally hosted on the [PEDAL Archive](https://kahveci.pw/pedal).
+*   **AI Protocol Citation**: Authors must cite the specific AI Review or Prompt Protocol used, ideally hosted on the [PEDAL Archive](https://kahveci.pw/pedal-archive/).
 *   **Citation Format**: `Protocol: PEDAL-ID/vX (Author, Year)`.
 *   **Verification**: All AI-assisted components must be verified by a Human Expert or Section Editor.
 
@@ -67,5 +67,10 @@ Every manuscript must include the following sections before the references:
 
 ---
 
-## 7. Contact & Support
+## 7. Technical Writing Resources
+For advanced tips on manuscript preparation, see our curated tutorials:
+*   **Figure Quality**: [How to Capture Journal-Ready (300+ DPI) Screenshots](https://kahveci.pw/cn/)
+*   **AI Transparency**: [PEDAL Archive Guidelines](https://kahveci.pw/pedal-archive/)
+
+## 8. Contact & Support
 For technical issues with the LaTeX template or the PEDAL Archive, contact the Editorial Office at `editor@kahveci.pw`.

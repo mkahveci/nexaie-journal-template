@@ -3,7 +3,7 @@
 Official LaTeX template for the **Nexus AI & Education (NExAIE)** journal. This template is designed for AI-native scholarly publishing with a focus on transparency, accessibility, and high-impact dissemination.
 
 ## 🚀 Key Features
-*   **AI-Native Disclosure**: Integrated support for [PEDAL Archive](https://kahveci.pw/pedal) protocol citations.
+*   **AI-Native Disclosure**: Integrated support for [PEDAL Archive](https://kahveci.pw/pedal-archive/) protocol citations.
 *   **Accessibility First**: Built-in ADA/WCAG 2.1 compliance for figures (forced Alt-Text).
 *   **Scholarly Infrastructure**: Multi-author/institution support via `authblk`.
 *   **Flexible Layouts**: Toggles for `onecolumn`, `twocolumn`, `review` (line numbers), and `preprint` modes.
@@ -16,6 +16,11 @@ Official LaTeX template for the **Nexus AI & Education (NExAIE)** journal. This 
     *   Clone this repository.
     *   Ensure you have a modern LaTeX distribution (TeX Live 2024+).
     *   Compile using `pdflatex` -> `biber` -> `pdflatex`.
+
+## 📂 Technical Writing Resources
+To help you prepare high-quality manuscripts, we recommend the following tutorials:
+*   **High-Resolution Figures**: [How to Capture Journal-Ready (300+ DPI) Screenshots](https://kahveci.pw/cn/)
+*   **AI Protocol Documentation**: [The PEDAL Archive Guidelines](https://kahveci.pw/pedal-archive/)
 
 ## 📂 File Structure
 *   `nexaie.cls`: The official journal class file.
