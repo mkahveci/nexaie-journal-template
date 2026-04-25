@@ -11,7 +11,7 @@ Official LaTeX template for the **Nexus AI & Education (NExAIE)** journal. This 
 
 ## 📥 Getting Started
 1.  **Journal Homepage**: [nexaie.kahveci.pw](https://nexaie.kahveci.pw/index.php/nexaie)
-2.  **Overleaf (Recommended)**: [Link to Overleaf Template]
+2.  **Overleaf (Recommended)**: [Official Template](https://www.overleaf.com/read/pqtdqgxkkzrm#72e041)
 3.  **Local Use**:
     *   Clone this repository.
     *   Ensure you have a modern LaTeX distribution (TeX Live 2024+).
